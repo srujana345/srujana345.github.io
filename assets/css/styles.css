@@ -16,6 +16,8 @@
     align-items: center;
     position: sticky;
     top: 0px;
+   
+  
   }
 
   .header-row .box {
@@ -61,3 +63,5 @@
     border: none;
     border-radius: 10%;
   }
+
+  
