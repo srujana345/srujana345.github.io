@@ -70,12 +70,22 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.9);
-    color: black;
+    background: rgba(10, 10, 10, 0.9);
+    color: rgb(250, 246, 246);
     padding: 10px;
     text-align: center;
     opacity: 0;
     transition: opacity 0.3s;
+}
+
+.card-content a {
+    color: white; /* Change hyperlink color to white */
+    text-decoration: none; /* Remove underline */
+}
+
+.card-content a:hover {
+    color: lightgray; /* Change color on hover */
+    text-decoration: underline; /* Add underline on hover */
 }
 
 .card:hover .card-content {
