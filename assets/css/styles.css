@@ -11,13 +11,14 @@
   }
 
   .header-row {
-    background-color: orange;
+    background-color: grey;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: sticky;
+    background-image: linear-gradient(to right, white ,grey, black);
     top: 0px;
-   
+   /* color: white; */
   
   }
 
@@ -29,14 +30,19 @@
     display: inline;
     padding: 5px;
     font-size: larger;
+    color: white;
   }
 
   .header-row a {
     text-decoration: none;
+    color: white;
+    font-size: larger;
   }
 
   .header-row a:hover {
     text-decoration: underline;
+    color: lightgray;
+
   }
 
   .row {
