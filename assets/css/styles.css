@@ -7,6 +7,7 @@
     right: 0;
     scroll-behavior: smooth;
     height: 100%;
+   
   }
 
   .header-row {
@@ -41,11 +42,17 @@
   .row {
     padding: 100px;
     height: 75%;
+   
+    background-image: url('../images/b6.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .row .box {
     padding: 20px;
     margin: 10px;
+    color: white;
   }
 
   .footer {
@@ -64,4 +71,3 @@
     border-radius: 10%;
   }
 
-  
