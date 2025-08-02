@@ -173,4 +173,13 @@
     gap: 20px;
   }
 }
+.skills-box ul,
+.skills-box li {
+    color: white;
+    font-size: 1.1em;
+}
+.skills-box ul {
+    list-style: disc;
+    margin-left: 20px;
+}
 
